@@ -18,7 +18,7 @@ Some of the biggest changes are:
    evade and defense methods should be in the AbstractCharacter class. It is this way (for now) because the notion of a Panel having the capability of reducing
    a character's hit points doesn't sit right with me, as I think that the Characters themselves should be the ones to reduce their own hit points.
 6. I did something similar for the HomePanel, it should be the HomePanel the one that invokes the normaCheck method, however I think the player is the one who
-   should increase their own level, that's why normaCheck is defined in the Player class but called in the HomePanel class.
+   should increase its own level, that's why normaCheck is defined in the Player class but called in the HomePanel class.
 7. The "id" atribute for the panels was added only as a way to differentiate panels, even though panels can't posibly have the same players on them at the same
    time, the notion of "time" still isn't quite clear since I still haven't used a controller. For example, I have all the elements to meke a board, but the 
    actual board that should be created before the game even begins doesn't exist yet, because of this I don't have a list with all the panels that were 
