@@ -2,7 +2,7 @@
 Clone of the game 100% Orange Juice, made using the base code given.
 
 Some of the biggest changes are:
-1. There is no "Type class" anymmore, instead, each type of panel is created by it own class (HomePanel, NeutralPanel, DropPanel, etc.) that extends 
+1. There is no "Type class" anymore, instead, each type of panel is created by it own class (HomePanel, NeutralPanel, DropPanel, etc.) that extends 
    and abstract class (AbstractPanel) which implements the Panel Interface (IPanel). Therefore, all the methods that were related to the "type" atribute
    in the base code were deleted, however the rest were quite useful so they stayed almost the same but instead of being directly in the Panel class, now they 
    are in the AbstractPanel class so they can be used by all panels. 
