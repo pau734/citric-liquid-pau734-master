@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * @version 1.0.6-rc.1
  * @since 1.0
  */
-class PanelTest {
+class AbstractPanelTest {
     private final static String PLAYER_NAME = "Suguri";
     private final static int CURRENT_HP= 4;
     private final static int BASE_ATK = 1;

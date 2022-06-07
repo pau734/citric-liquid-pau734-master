@@ -71,7 +71,7 @@ public class PlayerTest {
     }
 
     @Test
-    public void playerHomePanel(){
+    public void playerHomePanelTest(){
         Assertions.assertNull(suguri.getHomePanel());
         Assertions.assertNull(yoMacaco.getHomePanel());
     }
